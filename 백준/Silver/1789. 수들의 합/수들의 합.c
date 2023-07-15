@@ -11,11 +11,7 @@ int main(){
     while(sum < S){
 
         sum = sum + N ; 
-
-        if(sum == S){
-            break ;
-        }
-
+        
         if(sum > S){
             N--;
             break ;
