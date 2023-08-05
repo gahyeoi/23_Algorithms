@@ -13,7 +13,7 @@ int isPalindrome(char * word, int length){
     }
     revised[strlen(revised)] = '\0' ;
 
-    // strcmp를 사용하여 동일한 경우 리턴 1해줒,. 
+    // strcmp를 사용하여 동일한 경우 리턴 1해줌  
     if(strcmp(word, revised) == 0)
         return 1 ; 
     else 
