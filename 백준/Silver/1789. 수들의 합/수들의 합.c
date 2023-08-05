@@ -9,18 +9,13 @@ int main(){
     N = 1 ; 
 
     while(sum < S){
-
         sum = sum + N ; 
-        
         if(sum > S){
             N--;
             break ;
         }
-        
         N++;
-
     }
-    
 
     printf("%ld", N) ;
 
